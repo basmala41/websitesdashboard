@@ -1,0 +1,54 @@
+:root {
+  font-family: "Alexandria", sans-serif ;
+    line-height: 1.5;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #333;
+  text-decoration: inherit;
+    font-family: "Alexandria", sans-serif ;
+
+}
+a:hover {
+  color: #1a73e8;
+}
+
+body {
+  margin: 0;
+}/* 
+table{
+    font-family: "Alexandria", sans-serif;
+}
+.table-container {
+  position: relative;
+  z-index: 1;
+}
+
+.MuiTableContainer-root,
+.react-table-container,
+.table-wrapper {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.MuiTableHead-root,
+.MuiTableBody-root,
+.table-head,
+.table-body {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+body.modal-open {
+  overflow: hidden;
+}  */
+  

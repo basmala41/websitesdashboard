@@ -1,0 +1,62 @@
+.bannerSection {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bannerHeader {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 5px;
+}
+.bannerThumbnail,
+.bannerUpload img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.bannerUpload{
+    margin: 0 5px;
+}
+.bannerItem{
+    position: relative;
+}
+.deleteIcon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+.bannerContent img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.uploadSection{
+    display: flex;
+    justify-content: right;
+}
+.uploadButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.uploadButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

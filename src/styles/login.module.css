@@ -1,0 +1,131 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+font-family: "Alexandria", sans-serif;
+}
+
+.loginBox {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem;
+}
+
+.loginHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.loginHeader h1 {
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.loginHeader p {
+    color: #666;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.welcomeMessage {
+    background-color: #e8f5e8;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.welcomeMessage p {
+    color: #2e7d32;
+    font-weight: 500;
+    margin: 0;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.inputGroup label {
+    font-weight: 500;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.input {
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.input:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+.input::placeholder{
+    font-family: "Alexandria", sans-serif;
+}
+.loadingText {
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+}
+
+.errorMessage {
+    background-color: #ffebee;
+    border: 1px solid #f44336;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #c62828;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.loginButton {
+    padding: 0.875rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: "Alexandria", sans-serif;
+}
+
+.loginButton:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+}
+
+.loginButton:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
